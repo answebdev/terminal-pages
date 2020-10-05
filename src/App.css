@@ -30,7 +30,7 @@ body {
 }
 
 #logo {
-  width: 10%;
+  /* width: 10%; */
   width: 100px;
   display: block;
   margin-top: 20px;
