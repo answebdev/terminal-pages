@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import logo from '../../img/logo.png';
 
@@ -13,27 +13,115 @@ const Home = () => {
         <br />
         <div>
           <Row>
-            {/* <Col md={4}></Col> */}
             <Col md={12}>
-              <div id='logo-div'>
-                <Image
-                  id='logo'
-                  fluid
-                  src={logo}
-                  // roundedCircle
-                  // style={{
-                  //   width: '35%',
-                  //   height: 'auto',
-                  // }}
-                />
-              </div>
+              <Image id='logo' fluid src={logo} />
             </Col>
-            {/* <Col md={4}></Col> */}
           </Row>
           <Row>
             <Col md={12}>
               <br />
-              <p id='page-title'>Terminal Pages</p>
+              <p id='page-title'>Raygun Circus | Adolf N.S.</p>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={12}>
+              <center>
+                <Button
+                  href='https://rayguncircus.com/'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                  className='main-btn'
+                  variant='secondary'
+                  size='lg'
+                  block
+                >
+                  Raygun Circus (Official Website)
+                </Button>
+              </center>
+              <center>
+                <Button
+                  href='https://rayguncircus.bandcamp.com/'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                  className='main-btn'
+                  variant='secondary'
+                  size='lg'
+                  block
+                >
+                  Raygun Circus on Bandcamp
+                </Button>
+              </center>
+              <center>
+                <Button
+                  href='https://www.amazon.com/dp/057852001X?ref_=pe_3052080_397514860'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                  className='main-btn'
+                  variant='secondary'
+                  size='lg'
+                  block
+                >
+                  Buy my book Terminal Fiction on Amazon
+                </Button>
+              </center>
+              <center>
+                <Button
+                  href='https://www.goodreads.com/book/show/51301085-terminal-fiction?from_search=true&from_srp=true&qid=OyBF3iphXJ&rank=2'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                  className='main-btn'
+                  variant='secondary'
+                  size='lg'
+                  block
+                >
+                  Terminal Fiction on Goodreads
+                </Button>
+              </center>
+              <center>
+                <Button
+                  href='https://www.instagram.com/adolfns/'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                  className='main-btn'
+                  variant='secondary'
+                  size='lg'
+                  block
+                >
+                  Instagram
+                </Button>
+              </center>
+              <center>
+                <Button
+                  href='https://coricelesti.bandcamp.com/'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                  className='main-btn'
+                  variant='secondary'
+                  size='lg'
+                  block
+                >
+                  Cori Celesti on Bandcamp
+                </Button>
+              </center>
+              <center>
+                <Button
+                  href='https://ansmusic.bandcamp.com/'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                  className='main-btn'
+                  variant='secondary'
+                  size='lg'
+                  block
+                >
+                  A.N.S. on Bandcamp
+                </Button>
+              </center>
+            </Col>
+          </Row>
+          <Row>
+            <Col md={12}>
+              <br />
+              <p id='bottom-title'>Terminal Pages</p>
             </Col>
           </Row>
         </div>
