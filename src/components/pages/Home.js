@@ -62,7 +62,7 @@ const Home = () => {
                   size='lg'
                   block
                 >
-                  Buy my book Terminal Fiction on Amazon
+                  Terminal Fiction on Amazon
                 </Button>
               </center>
               <center>
