@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import logo from '../../img/logo.png';
+import terminal from '../../img/tp-logo.png';
 
 const Home = () => {
   return (
@@ -120,10 +121,19 @@ const Home = () => {
             </Col>
             <Col md={3}></Col>
           </Row>
+          {/* //{' '}
+          <Row>
+            //{' '}
+            <Col md={12}>
+              // <br />
+              // <p id='bottom-title'>Terminal Pages</p>
+              //{' '}
+            </Col>
+            //{' '}
+          </Row> */}
           <Row>
             <Col md={12}>
-              <br />
-              <p id='bottom-title'>Terminal Pages</p>
+              <Image id='tp-logo' fluid src={terminal} />
             </Col>
           </Row>
         </div>
