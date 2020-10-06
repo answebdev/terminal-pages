@@ -25,8 +25,8 @@ const Home = () => {
             </Col>
           </Row>
           <Row>
-            <Col md={3}></Col>
-            <Col md={6}>
+            <Col md={2}></Col>
+            <Col md={8}>
               <center>
                 <Button
                   href='https://rayguncircus.com/'
@@ -119,7 +119,7 @@ const Home = () => {
                 </Button>
               </center>
             </Col>
-            <Col md={3}></Col>
+            <Col md={2}></Col>
           </Row>
           {/* //{' '}
           <Row>
